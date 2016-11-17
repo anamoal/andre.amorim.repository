@@ -26,7 +26,7 @@ end
 
 def click_on_search
   $browser.button(:class=>"btn btn-action btn-search-big").click
-  sleep(3)
+  sleep(4)
 end
 
 def select_price(price)
@@ -55,7 +55,7 @@ def verify_rooms_quantity(room)
       nroom=nroom.scan(/\d+/).first
       #puts nroom
       if (nroom.to_i!=room.to_i) then
-      fail("Any problem happened number"+ nroom + " is different!")
+      fail("Any problem happened! was found "+ nroom + " room(s)!")
       end
        x+=1
     else

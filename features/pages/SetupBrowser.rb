@@ -17,6 +17,7 @@ $browser.driver.manage.window.maximize
 screen_width = $browser.execute_script("return screen.width;")
 screen_height = $browser.execute_script("return screen.height;")
 $browser.driver.manage.window.resize_to(screen_width,screen_height)
+Watir.default_timeout = 300
 end
 
 

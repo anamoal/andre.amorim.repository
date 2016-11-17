@@ -2,7 +2,7 @@
 
 Steps to run tests:
 
-1- Install ruby,cucumber,watir
+1- Install ruby,cucumber,watir if you dont have
 
 2-Inside the folder run on terminal command "cucumber features/otodom.feature"
 

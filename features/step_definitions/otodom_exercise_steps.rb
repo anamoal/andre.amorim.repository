@@ -32,11 +32,11 @@ Then(/^search again$/) do
  @Otodom.click_on_search
 end
 
-Then(/^verify if all apartments in the first page there are "(.*?)" rooms$/) do |room|
+Then(/^verify if all properties in the first page there are "(.*?)" rooms$/) do |room|
   @Otodom.verify_rooms_quantity(room)
 end
 
 
-Then(/^verify if all apartments in the first page are lower than "(.*?)"$/) do |price|
+Then(/^verify if all properties in the first page are lower than "(.*?)"$/) do |price|
   @Otodom.verify_price(price)
 end
